@@ -1,0 +1,765 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="APTIFYModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'APTIFY.dbo.vwACSNtdsChapter' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vwACSNtdsChapter">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="ChapterNumber" />
+            <PropertyRef Name="NtdsVersionId" />
+            <PropertyRef Name="IsAppendix" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="ChapterNumber" Type="int" Nullable="false" />
+          <Property Name="ChapterName" Type="nvarchar" MaxLength="250" />
+          <Property Name="Description" Type="nvarchar" MaxLength="2000" />
+          <Property Name="ChapterNumberName" Type="nvarchar" MaxLength="250" />
+          <Property Name="NtdsVersionId" Type="int" Nullable="false" />
+          <Property Name="NtdsVersionId_Name" Type="nvarchar" MaxLength="250" />
+          <Property Name="IsAppendix" Type="bit" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'APTIFY.dbo.vwACSNtdsExternalStatusType' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vwACSNtdsExternalStatusType">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Name" />
+            <PropertyRef Name="Sequence" />
+            <PropertyRef Name="Active" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="Description" Type="nvarchar" MaxLength="2000" />
+          <Property Name="Sequence" Type="int" Nullable="false" />
+          <Property Name="Active" Type="bit" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'APTIFY.dbo.vwACSNtdsField' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vwACSNtdsField">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Name" />
+            <PropertyRef Name="NtdsFieldSequence" />
+            <PropertyRef Name="NtdsChapterId" />
+            <PropertyRef Name="NtdsChapterId_Name" />
+            <PropertyRef Name="NtdsChapterId_VersionId" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="Description" Type="nvarchar" MaxLength="2000" />
+          <Property Name="NtdsFieldSequence" Type="int" Nullable="false" />
+          <Property Name="NtdsChapterId" Type="int" Nullable="false" />
+          <Property Name="NtdsChapterId_Name" Type="int" Nullable="false" />
+          <Property Name="NtdsChapterId_VersionId" Type="int" Nullable="false" />
+          <Property Name="NtdsFieldTypeId" Type="int" />
+          <Property Name="NtdsFieldTypeId_Name" Type="nvarchar" MaxLength="250" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'APTIFY.dbo.vwACSNtdsFieldType' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vwACSNtdsFieldType">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="250" />
+          <Property Name="Description" Type="nvarchar(max)" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'APTIFY.dbo.vwACSNtdsInternalStatusType' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vwACSNtdsInternalStatusType">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Name" />
+            <PropertyRef Name="Sequence" />
+            <PropertyRef Name="Active" />
+            <PropertyRef Name="NtdsExternalStatusTypeId" />
+            <PropertyRef Name="NtdsExternalStatusTypeId_Name" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="Description" Type="nvarchar" MaxLength="2000" />
+          <Property Name="Sequence" Type="int" Nullable="false" />
+          <Property Name="Active" Type="bit" Nullable="false" />
+          <Property Name="NtdsExternalStatusTypeId" Type="int" Nullable="false" />
+          <Property Name="NtdsExternalStatusTypeId_Name" Type="nvarchar" MaxLength="250" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'APTIFY.dbo.vwACSNtdsPersonSuggestions' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vwACSNtdsPersonSuggestions">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="PersonId" />
+            <PropertyRef Name="ExternalStatusTypeId" />
+            <PropertyRef Name="ExternalStatusTypeId_Name" />
+            <PropertyRef Name="InternalStatusTypeId" />
+            <PropertyRef Name="InternalStatusTypeId_Name" />
+            <PropertyRef Name="FieldId" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="PersonId" Type="int" Nullable="false" />
+          <Property Name="PersonId_AcsMailName" Type="nvarchar" MaxLength="156" />
+          <Property Name="NewFieldName" Type="nvarchar" MaxLength="500" />
+          <Property Name="Definition" Type="nvarchar" MaxLength="500" />
+          <Property Name="FieldValues" Type="nvarchar" MaxLength="500" />
+          <Property Name="AdditionalInformation" Type="nvarchar" MaxLength="500" />
+          <Property Name="DataSourceHierarchy" Type="nvarchar" MaxLength="500" />
+          <Property Name="AssociatedEditChecks" Type="nvarchar" MaxLength="500" />
+          <Property Name="RationaleForChange" Type="nvarchar" MaxLength="500" />
+          <Property Name="DateUpdated" Type="datetime" />
+          <Property Name="ChapterName" Type="nvarchar" MaxLength="250" />
+          <Property Name="VersionName" Type="nvarchar" MaxLength="250" />
+          <Property Name="ExternalStatusTypeId" Type="int" Nullable="false" />
+          <Property Name="ExternalStatusTypeId_Name" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="InternalStatusTypeId" Type="int" Nullable="false" />
+          <Property Name="InternalStatusTypeId_Name" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="FieldName" Type="nvarchar" MaxLength="250" />
+          <Property Name="FieldId" Type="int" Nullable="false" />
+          <Property Name="NtdsChapterId" Type="int" />
+          <Property Name="NtdsVersionId" Type="int" />
+          <Property Name="DateCreated" Type="datetime" />
+          <Property Name="NtdsFieldTypeId" Type="int" />
+          <Property Name="NtdsFieldTypeId_Name" Type="nvarchar" MaxLength="250" />
+          <Property Name="IsAppendix" Type="bit" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'APTIFY.dbo.vwACSNtdsProgram' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vwACSNtdsProgram">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Name" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="StartDate" Type="datetime" />
+          <Property Name="EndDate" Type="datetime" />
+          <Property Name="LoginInstructions" Type="nvarchar(max)" />
+          <Property Name="UserPageHeader" Type="nvarchar(max)" />
+          <Property Name="EditSuggestion" Type="nvarchar(max)" />
+          <Property Name="NewSuggestion" Type="nvarchar(max)" />
+          <Property Name="InterimLoginPage" Type="nvarchar(max)" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'APTIFY.dbo.vwACSNtdsSuggestion' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vwACSNtdsSuggestion">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="PersonId" />
+            <PropertyRef Name="ExternalStatusTypeId" />
+            <PropertyRef Name="ExternalStatusTypeId_Name" />
+            <PropertyRef Name="InternalStatusTypeId" />
+            <PropertyRef Name="InternalStatusTypeId_Name" />
+            <PropertyRef Name="FieldId" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="NewFieldName" Type="nvarchar" MaxLength="500" />
+          <Property Name="Definition" Type="nvarchar" MaxLength="500" />
+          <Property Name="FieldValues" Type="nvarchar" MaxLength="500" />
+          <Property Name="AdditionalInformation" Type="nvarchar" MaxLength="500" />
+          <Property Name="DataSourceHierarchy" Type="nvarchar" MaxLength="500" />
+          <Property Name="AssociatedEditChecks" Type="nvarchar" MaxLength="500" />
+          <Property Name="RationaleForChange" Type="nvarchar" MaxLength="500" />
+          <Property Name="StatusDate" Type="datetime" />
+          <Property Name="ToBePublishedVersion" Type="nvarchar" MaxLength="250" />
+          <Property Name="RejectedReason" Type="nvarchar" MaxLength="500" />
+          <Property Name="PersonId" Type="int" Nullable="false" />
+          <Property Name="PersonId_AcsMailName" Type="nvarchar" MaxLength="156" />
+          <Property Name="ExternalStatusTypeId" Type="int" Nullable="false" />
+          <Property Name="ExternalStatusTypeId_Name" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="InternalStatusTypeId" Type="int" Nullable="false" />
+          <Property Name="InternalStatusTypeId_Name" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="FieldId" Type="int" Nullable="false" />
+          <Property Name="FieldName" Type="nvarchar" MaxLength="250" />
+          <Property Name="NtdsChapterId" Type="int" />
+          <Property Name="ChapterName" Type="nvarchar" MaxLength="250" />
+          <Property Name="NtdsVersionId" Type="int" />
+          <Property Name="VersionName" Type="nvarchar" MaxLength="250" />
+          <Property Name="DateCreated" Type="datetime" />
+          <Property Name="DateUpdated" Type="datetime" />
+          <Property Name="StaffComments" Type="nvarchar(max)" />
+          <Property Name="NtdsFieldTypeId" Type="int" />
+          <Property Name="NtdsFieldTypeId_Name" Type="nvarchar" MaxLength="250" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'APTIFY.dbo.vwACSNtdsUserInfo' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vwACSNtdsUserInfo">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="PersonId" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="PersonId" Type="int" Nullable="false" />
+          <Property Name="PersonId_ACSMailName" Type="nvarchar" MaxLength="156" />
+          <Property Name="UserType" Type="nvarchar" MaxLength="50" />
+          <Property Name="InstitutionName" Type="nvarchar" MaxLength="500" />
+          <Property Name="DateCreated" Type="datetime" />
+          <Property Name="NTDBId" Type="numeric" Precision="28" Scale="4" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'APTIFY.dbo.vwACSNtdsVersion' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vwACSNtdsVersion">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="AcceptsEdits" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="250" />
+          <Property Name="Description" Type="nvarchar" MaxLength="2000" />
+          <Property Name="Year" Type="int" />
+          <Property Name="Revision" Type="nvarchar" MaxLength="25" />
+          <Property Name="AcceptsEdits" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="APTIFYModelStoreContainer">
+          <EntitySet Name="vwACSNtdsChapter" EntityType="Self.vwACSNtdsChapter" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [vwACSNtdsChapter].[ID] AS [ID], 
+    [vwACSNtdsChapter].[ChapterNumber] AS [ChapterNumber], 
+    [vwACSNtdsChapter].[ChapterName] AS [ChapterName], 
+    [vwACSNtdsChapter].[Description] AS [Description], 
+    [vwACSNtdsChapter].[ChapterNumberName] AS [ChapterNumberName], 
+    [vwACSNtdsChapter].[NtdsVersionId] AS [NtdsVersionId], 
+    [vwACSNtdsChapter].[NtdsVersionId_Name] AS [NtdsVersionId_Name], 
+    [vwACSNtdsChapter].[IsAppendix] AS [IsAppendix]
+    FROM [dbo].[vwACSNtdsChapter] AS [vwACSNtdsChapter]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vwACSNtdsExternalStatusType" EntityType="Self.vwACSNtdsExternalStatusType" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [vwACSNtdsExternalStatusType].[ID] AS [ID], 
+    [vwACSNtdsExternalStatusType].[Name] AS [Name], 
+    [vwACSNtdsExternalStatusType].[Description] AS [Description], 
+    [vwACSNtdsExternalStatusType].[Sequence] AS [Sequence], 
+    [vwACSNtdsExternalStatusType].[Active] AS [Active]
+    FROM [dbo].[vwACSNtdsExternalStatusType] AS [vwACSNtdsExternalStatusType]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vwACSNtdsField" EntityType="Self.vwACSNtdsField" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [vwACSNtdsField].[ID] AS [ID], 
+    [vwACSNtdsField].[Name] AS [Name], 
+    [vwACSNtdsField].[Description] AS [Description], 
+    [vwACSNtdsField].[NtdsFieldSequence] AS [NtdsFieldSequence], 
+    [vwACSNtdsField].[NtdsChapterId] AS [NtdsChapterId], 
+    [vwACSNtdsField].[NtdsChapterId_Name] AS [NtdsChapterId_Name], 
+    [vwACSNtdsField].[NtdsChapterId_VersionId] AS [NtdsChapterId_VersionId], 
+    [vwACSNtdsField].[NtdsFieldTypeId] AS [NtdsFieldTypeId], 
+    [vwACSNtdsField].[NtdsFieldTypeId_Name] AS [NtdsFieldTypeId_Name]
+    FROM [dbo].[vwACSNtdsField] AS [vwACSNtdsField]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vwACSNtdsFieldType" EntityType="Self.vwACSNtdsFieldType" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [vwACSNtdsFieldType].[ID] AS [ID], 
+    [vwACSNtdsFieldType].[Name] AS [Name], 
+    [vwACSNtdsFieldType].[Description] AS [Description]
+    FROM [dbo].[vwACSNtdsFieldType] AS [vwACSNtdsFieldType]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vwACSNtdsInternalStatusType" EntityType="Self.vwACSNtdsInternalStatusType" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [vwACSNtdsInternalStatusType].[ID] AS [ID], 
+    [vwACSNtdsInternalStatusType].[Name] AS [Name], 
+    [vwACSNtdsInternalStatusType].[Description] AS [Description], 
+    [vwACSNtdsInternalStatusType].[Sequence] AS [Sequence], 
+    [vwACSNtdsInternalStatusType].[Active] AS [Active], 
+    [vwACSNtdsInternalStatusType].[NtdsExternalStatusTypeId] AS [NtdsExternalStatusTypeId], 
+    [vwACSNtdsInternalStatusType].[NtdsExternalStatusTypeId_Name] AS [NtdsExternalStatusTypeId_Name]
+    FROM [dbo].[vwACSNtdsInternalStatusType] AS [vwACSNtdsInternalStatusType]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vwACSNtdsPersonSuggestions" EntityType="Self.vwACSNtdsPersonSuggestions" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [vwACSNtdsPersonSuggestions].[ID] AS [ID], 
+    [vwACSNtdsPersonSuggestions].[PersonId] AS [PersonId], 
+    [vwACSNtdsPersonSuggestions].[PersonId_AcsMailName] AS [PersonId_AcsMailName], 
+    [vwACSNtdsPersonSuggestions].[NewFieldName] AS [NewFieldName], 
+    [vwACSNtdsPersonSuggestions].[Definition] AS [Definition], 
+    [vwACSNtdsPersonSuggestions].[FieldValues] AS [FieldValues], 
+    [vwACSNtdsPersonSuggestions].[AdditionalInformation] AS [AdditionalInformation], 
+    [vwACSNtdsPersonSuggestions].[DataSourceHierarchy] AS [DataSourceHierarchy], 
+    [vwACSNtdsPersonSuggestions].[AssociatedEditChecks] AS [AssociatedEditChecks], 
+    [vwACSNtdsPersonSuggestions].[RationaleForChange] AS [RationaleForChange], 
+    [vwACSNtdsPersonSuggestions].[DateUpdated] AS [DateUpdated], 
+    [vwACSNtdsPersonSuggestions].[ChapterName] AS [ChapterName], 
+    [vwACSNtdsPersonSuggestions].[VersionName] AS [VersionName], 
+    [vwACSNtdsPersonSuggestions].[ExternalStatusTypeId] AS [ExternalStatusTypeId], 
+    [vwACSNtdsPersonSuggestions].[ExternalStatusTypeId_Name] AS [ExternalStatusTypeId_Name], 
+    [vwACSNtdsPersonSuggestions].[InternalStatusTypeId] AS [InternalStatusTypeId], 
+    [vwACSNtdsPersonSuggestions].[InternalStatusTypeId_Name] AS [InternalStatusTypeId_Name], 
+    [vwACSNtdsPersonSuggestions].[FieldName] AS [FieldName], 
+    [vwACSNtdsPersonSuggestions].[FieldId] AS [FieldId], 
+    [vwACSNtdsPersonSuggestions].[NtdsChapterId] AS [NtdsChapterId], 
+    [vwACSNtdsPersonSuggestions].[NtdsVersionId] AS [NtdsVersionId], 
+    [vwACSNtdsPersonSuggestions].[DateCreated] AS [DateCreated], 
+    [vwACSNtdsPersonSuggestions].[NtdsFieldTypeId] AS [NtdsFieldTypeId], 
+    [vwACSNtdsPersonSuggestions].[NtdsFieldTypeId_Name] AS [NtdsFieldTypeId_Name], 
+    [vwACSNtdsPersonSuggestions].[IsAppendix] AS [IsAppendix]
+    FROM [dbo].[vwACSNtdsPersonSuggestions] AS [vwACSNtdsPersonSuggestions]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vwACSNtdsProgram" EntityType="Self.vwACSNtdsProgram" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [vwACSNtdsProgram].[ID] AS [ID], 
+    [vwACSNtdsProgram].[Name] AS [Name], 
+    [vwACSNtdsProgram].[StartDate] AS [StartDate], 
+    [vwACSNtdsProgram].[EndDate] AS [EndDate], 
+    [vwACSNtdsProgram].[LoginInstructions] AS [LoginInstructions], 
+    [vwACSNtdsProgram].[UserPageHeader] AS [UserPageHeader], 
+    [vwACSNtdsProgram].[EditSuggestion] AS [EditSuggestion], 
+    [vwACSNtdsProgram].[NewSuggestion] AS [NewSuggestion], 
+    [vwACSNtdsProgram].[InterimLoginPage] AS [InterimLoginPage]
+    FROM [dbo].[vwACSNtdsProgram] AS [vwACSNtdsProgram]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vwACSNtdsSuggestion" EntityType="Self.vwACSNtdsSuggestion" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [vwACSNtdsSuggestion].[ID] AS [ID], 
+    [vwACSNtdsSuggestion].[NewFieldName] AS [NewFieldName], 
+    [vwACSNtdsSuggestion].[Definition] AS [Definition], 
+    [vwACSNtdsSuggestion].[FieldValues] AS [FieldValues], 
+    [vwACSNtdsSuggestion].[AdditionalInformation] AS [AdditionalInformation], 
+    [vwACSNtdsSuggestion].[DataSourceHierarchy] AS [DataSourceHierarchy], 
+    [vwACSNtdsSuggestion].[AssociatedEditChecks] AS [AssociatedEditChecks], 
+    [vwACSNtdsSuggestion].[RationaleForChange] AS [RationaleForChange], 
+    [vwACSNtdsSuggestion].[StatusDate] AS [StatusDate], 
+    [vwACSNtdsSuggestion].[ToBePublishedVersion] AS [ToBePublishedVersion], 
+    [vwACSNtdsSuggestion].[RejectedReason] AS [RejectedReason], 
+    [vwACSNtdsSuggestion].[PersonId] AS [PersonId], 
+    [vwACSNtdsSuggestion].[PersonId_AcsMailName] AS [PersonId_AcsMailName], 
+    [vwACSNtdsSuggestion].[ExternalStatusTypeId] AS [ExternalStatusTypeId], 
+    [vwACSNtdsSuggestion].[ExternalStatusTypeId_Name] AS [ExternalStatusTypeId_Name], 
+    [vwACSNtdsSuggestion].[InternalStatusTypeId] AS [InternalStatusTypeId], 
+    [vwACSNtdsSuggestion].[InternalStatusTypeId_Name] AS [InternalStatusTypeId_Name], 
+    [vwACSNtdsSuggestion].[FieldId] AS [FieldId], 
+    [vwACSNtdsSuggestion].[FieldName] AS [FieldName], 
+    [vwACSNtdsSuggestion].[NtdsChapterId] AS [NtdsChapterId], 
+    [vwACSNtdsSuggestion].[ChapterName] AS [ChapterName], 
+    [vwACSNtdsSuggestion].[NtdsVersionId] AS [NtdsVersionId], 
+    [vwACSNtdsSuggestion].[VersionName] AS [VersionName], 
+    [vwACSNtdsSuggestion].[DateCreated] AS [DateCreated], 
+    [vwACSNtdsSuggestion].[DateUpdated] AS [DateUpdated], 
+    [vwACSNtdsSuggestion].[StaffComments] AS [StaffComments], 
+    [vwACSNtdsSuggestion].[NtdsFieldTypeId] AS [NtdsFieldTypeId], 
+    [vwACSNtdsSuggestion].[NtdsFieldTypeId_Name] AS [NtdsFieldTypeId_Name]
+    FROM [dbo].[vwACSNtdsSuggestion] AS [vwACSNtdsSuggestion]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vwACSNtdsUserInfo" EntityType="Self.vwACSNtdsUserInfo" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [vwACSNtdsUserInfo].[ID] AS [ID], 
+    [vwACSNtdsUserInfo].[PersonId] AS [PersonId], 
+    [vwACSNtdsUserInfo].[PersonId_ACSMailName] AS [PersonId_ACSMailName], 
+    [vwACSNtdsUserInfo].[UserType] AS [UserType], 
+    [vwACSNtdsUserInfo].[InstitutionName] AS [InstitutionName], 
+    [vwACSNtdsUserInfo].[DateCreated] AS [DateCreated], 
+    [vwACSNtdsUserInfo].[NTDBId] AS [NTDBId]
+    FROM [dbo].[vwACSNtdsUserInfo] AS [vwACSNtdsUserInfo]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vwACSNtdsVersion" EntityType="Self.vwACSNtdsVersion" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [vwACSNtdsVersion].[ID] AS [ID], 
+    [vwACSNtdsVersion].[Name] AS [Name], 
+    [vwACSNtdsVersion].[Description] AS [Description], 
+    [vwACSNtdsVersion].[Year] AS [Year], 
+    [vwACSNtdsVersion].[Revision] AS [Revision], 
+    [vwACSNtdsVersion].[AcceptsEdits] AS [AcceptsEdits]
+    FROM [dbo].[vwACSNtdsVersion] AS [vwACSNtdsVersion]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="APTIFYModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="APTIFYEntities" annotation:LazyLoadingEnabled="false">
+          <EntitySet Name="vwACSNtdsChapter" EntityType="APTIFYModel.vwACSNtdsChapter" />
+          <EntitySet Name="vwACSNtdsExternalStatusType" EntityType="APTIFYModel.vwACSNtdsExternalStatusType" />
+          <EntitySet Name="vwACSNtdsInternalStatusType" EntityType="APTIFYModel.vwACSNtdsInternalStatusType" />
+          <EntitySet Name="vwACSNtdsProgram" EntityType="APTIFYModel.vwACSNtdsProgram" />
+          <EntitySet Name="vwACSNtdsUserInfo" EntityType="APTIFYModel.vwACSNtdsUserInfo" />
+          <EntitySet Name="vwACSNtdsVersion" EntityType="APTIFYModel.vwACSNtdsVersion" />
+          <EntitySet Name="vwACSNtdsSuggestion" EntityType="APTIFYModel.vwACSNtdsSuggestion" />
+          <EntitySet Name="vwACSNtdsPersonSuggestions" EntityType="APTIFYModel.vwACSNtdsPersonSuggestions" />
+          <EntitySet Name="vwACSNtdsFieldType" EntityType="APTIFYModel.vwACSNtdsFieldType" />
+          <EntitySet Name="vwACSNtdsField" EntityType="APTIFYModel.vwACSNtdsField" />
+        </EntityContainer>
+        <EntityType Name="vwACSNtdsChapter">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="ChapterNumber" />
+            <PropertyRef Name="NtdsVersionId" />
+            <PropertyRef Name="IsAppendix" />
+          </Key>
+          <Property Name="ID" Nullable="false" Type="Int32" />
+          <Property Name="ChapterNumber" Nullable="false" Type="Int32" />
+          <Property Name="ChapterName" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="Description" MaxLength="2000" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="ChapterNumberName" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="NtdsVersionId" Nullable="false" Type="Int32" />
+          <Property Name="NtdsVersionId_Name" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="IsAppendix" Type="Boolean" Nullable="false" />
+        </EntityType>
+        <EntityType Name="vwACSNtdsExternalStatusType">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Name" />
+            <PropertyRef Name="Sequence" />
+            <PropertyRef Name="Active" />
+          </Key>
+          <Property Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+          <Property Name="Name" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="Description" MaxLength="2000" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="Sequence" Nullable="false" Type="Int32" />
+          <Property Name="Active" Nullable="false" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="vwACSNtdsInternalStatusType">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Name" />
+            <PropertyRef Name="Sequence" />
+            <PropertyRef Name="Active" />
+            <PropertyRef Name="NtdsExternalStatusTypeId" />
+            <PropertyRef Name="NtdsExternalStatusTypeId_Name" />
+          </Key>
+          <Property Name="ID" Nullable="false" Type="Int32" />
+          <Property Name="Name" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="Description" MaxLength="2000" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="Sequence" Nullable="false" Type="Int32" />
+          <Property Name="Active" Nullable="false" Type="Boolean" />
+          <Property Name="NtdsExternalStatusTypeId" Nullable="false" Type="Int32" />
+          <Property Name="NtdsExternalStatusTypeId_Name" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+        </EntityType>
+        <EntityType Name="vwACSNtdsProgram">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Name" />
+          </Key>
+          <Property Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+          <Property Name="Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="StartDate" Precision="3" Type="DateTime" />
+          <Property Name="EndDate" Precision="3" Type="DateTime" />
+          <Property Name="LoginInstructions" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="UserPageHeader" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="EditSuggestion" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="NewSuggestion" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="InterimLoginPage" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+        </EntityType>
+        <EntityType Name="vwACSNtdsUserInfo">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="PersonId" />
+          </Key>
+          <Property Name="ID" Nullable="false" Type="Int32" />
+          <Property Name="PersonId" Nullable="false" Type="Int32" />
+          <Property Name="PersonId_ACSMailName" MaxLength="156" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="UserType" MaxLength="50" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="InstitutionName" MaxLength="500" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="DateCreated" Precision="3" Type="DateTime" />
+          <Property Name="NTDBId" Precision="28" Scale="4" Type="Decimal" />
+        </EntityType>
+        <EntityType Name="vwACSNtdsVersion">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="AcceptsEdits" />
+          </Key>
+          <Property Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+          <Property Name="Name" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="Description" MaxLength="2000" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="Year" Type="Int32" />
+          <Property Name="Revision" MaxLength="25" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="AcceptsEdits" Nullable="false" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="vwACSNtdsSuggestion">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="PersonId" />
+            <PropertyRef Name="ExternalStatusTypeId" />
+            <PropertyRef Name="ExternalStatusTypeId_Name" />
+            <PropertyRef Name="InternalStatusTypeId" />
+            <PropertyRef Name="InternalStatusTypeId_Name" />
+            <PropertyRef Name="FieldId" />
+          </Key>
+          <Property Name="ID" Nullable="false" Type="Int32" />
+          <Property Name="NewFieldName" MaxLength="500" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="Definition" MaxLength="500" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="FieldValues" MaxLength="500" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="AdditionalInformation" MaxLength="500" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="DataSourceHierarchy" MaxLength="500" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="AssociatedEditChecks" MaxLength="500" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="RationaleForChange" MaxLength="500" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="StatusDate" Precision="3" Type="DateTime" />
+          <Property Name="ToBePublishedVersion" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="RejectedReason" MaxLength="500" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="PersonId" Nullable="false" Type="Int32" />
+          <Property Name="PersonId_AcsMailName" MaxLength="156" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="ExternalStatusTypeId" Nullable="false" Type="Int32" />
+          <Property Name="ExternalStatusTypeId_Name" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="InternalStatusTypeId" Nullable="false" Type="Int32" />
+          <Property Name="InternalStatusTypeId_Name" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="FieldId" Nullable="false" Type="Int32" />
+          <Property Name="NtdsChapterId" Type="Int32" />
+          <Property Name="NtdsVersionId" Type="Int32" />
+          <Property Name="ChapterName" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="VersionName" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="DateCreated" Precision="3" Type="DateTime" />
+          <Property Name="FieldName" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="DateUpdated" Precision="3" Type="DateTime" />
+          <Property Name="StaffComments" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="NtdsFieldTypeId" Type="Int32" />
+          <Property Name="NtdsFieldTypeId_Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="vwACSNtdsPersonSuggestions">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="PersonId" />
+            <PropertyRef Name="ExternalStatusTypeId" />
+            <PropertyRef Name="ExternalStatusTypeId_Name" />
+            <PropertyRef Name="InternalStatusTypeId" />
+            <PropertyRef Name="InternalStatusTypeId_Name" />
+            <PropertyRef Name="FieldId" />
+          </Key>
+          <Property Name="ID" Nullable="false" Type="Int32" />
+          <Property Name="PersonId" Nullable="false" Type="Int32" />
+          <Property Name="PersonId_AcsMailName" MaxLength="156" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="NewFieldName" MaxLength="500" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="Definition" MaxLength="500" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="FieldValues" MaxLength="500" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="AdditionalInformation" MaxLength="500" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="DataSourceHierarchy" MaxLength="500" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="AssociatedEditChecks" MaxLength="500" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="RationaleForChange" MaxLength="500" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="DateUpdated" Precision="3" Type="DateTime" />
+          <Property Name="ChapterName" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="VersionName" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="ExternalStatusTypeId" Nullable="false" Type="Int32" />
+          <Property Name="ExternalStatusTypeId_Name" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="InternalStatusTypeId" Nullable="false" Type="Int32" />
+          <Property Name="InternalStatusTypeId_Name" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="FieldName" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="FieldId" Nullable="false" Type="Int32" />
+          <Property Name="NtdsChapterId" Type="Int32" />
+          <Property Name="NtdsVersionId" Type="Int32" />
+          <Property Name="DateCreated" Precision="3" Type="DateTime" />
+          <Property Name="NtdsFieldTypeId" Type="Int32" />
+          <Property Name="NtdsFieldTypeId_Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="IsAppendix" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="vwACSNtdsFieldType">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="vwACSNtdsField">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Name" />
+            <PropertyRef Name="NtdsFieldSequence" />
+            <PropertyRef Name="NtdsChapterId" />
+            <PropertyRef Name="NtdsChapterId_Name" />
+            <PropertyRef Name="NtdsChapterId_VersionId" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+          <Property Name="NtdsFieldSequence" Type="Int32" Nullable="false" />
+          <Property Name="NtdsChapterId" Type="Int32" Nullable="false" />
+          <Property Name="NtdsChapterId_Name" Type="Int32" Nullable="false" />
+          <Property Name="NtdsChapterId_VersionId" Type="Int32" Nullable="false" />
+          <Property Name="NtdsFieldTypeId" Type="Int32" />
+          <Property Name="NtdsFieldTypeId_Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+        </EntityType>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="APTIFYModelStoreContainer" CdmEntityContainer="APTIFYEntities">
+          <EntitySetMapping Name="vwACSNtdsChapter">
+            <EntityTypeMapping TypeName="APTIFYModel.vwACSNtdsChapter">
+              <MappingFragment StoreEntitySet="vwACSNtdsChapter">
+                <ScalarProperty Name="IsAppendix" ColumnName="IsAppendix" />
+                <ScalarProperty Name="NtdsVersionId_Name" ColumnName="NtdsVersionId_Name" />
+                <ScalarProperty Name="NtdsVersionId" ColumnName="NtdsVersionId" />
+                <ScalarProperty Name="ChapterNumberName" ColumnName="ChapterNumberName" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="ChapterName" ColumnName="ChapterName" />
+                <ScalarProperty Name="ChapterNumber" ColumnName="ChapterNumber" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vwACSNtdsExternalStatusType">
+            <EntityTypeMapping TypeName="APTIFYModel.vwACSNtdsExternalStatusType">
+              <MappingFragment StoreEntitySet="vwACSNtdsExternalStatusType">
+                <ScalarProperty Name="Active" ColumnName="Active" />
+                <ScalarProperty Name="Sequence" ColumnName="Sequence" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vwACSNtdsInternalStatusType">
+            <EntityTypeMapping TypeName="APTIFYModel.vwACSNtdsInternalStatusType">
+              <MappingFragment StoreEntitySet="vwACSNtdsInternalStatusType">
+                <ScalarProperty Name="NtdsExternalStatusTypeId_Name" ColumnName="NtdsExternalStatusTypeId_Name" />
+                <ScalarProperty Name="NtdsExternalStatusTypeId" ColumnName="NtdsExternalStatusTypeId" />
+                <ScalarProperty Name="Active" ColumnName="Active" />
+                <ScalarProperty Name="Sequence" ColumnName="Sequence" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vwACSNtdsProgram">
+            <EntityTypeMapping TypeName="APTIFYModel.vwACSNtdsProgram">
+              <MappingFragment StoreEntitySet="vwACSNtdsProgram">
+                <ScalarProperty Name="InterimLoginPage" ColumnName="InterimLoginPage" />
+                <ScalarProperty Name="NewSuggestion" ColumnName="NewSuggestion" />
+                <ScalarProperty Name="EditSuggestion" ColumnName="EditSuggestion" />
+                <ScalarProperty Name="UserPageHeader" ColumnName="UserPageHeader" />
+                <ScalarProperty Name="LoginInstructions" ColumnName="LoginInstructions" />
+                <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+                <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vwACSNtdsUserInfo">
+            <EntityTypeMapping TypeName="APTIFYModel.vwACSNtdsUserInfo">
+              <MappingFragment StoreEntitySet="vwACSNtdsUserInfo">
+                <ScalarProperty Name="NTDBId" ColumnName="NTDBId" />
+                <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+                <ScalarProperty Name="InstitutionName" ColumnName="InstitutionName" />
+                <ScalarProperty Name="UserType" ColumnName="UserType" />
+                <ScalarProperty Name="PersonId_ACSMailName" ColumnName="PersonId_ACSMailName" />
+                <ScalarProperty Name="PersonId" ColumnName="PersonId" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vwACSNtdsVersion">
+            <EntityTypeMapping TypeName="APTIFYModel.vwACSNtdsVersion">
+              <MappingFragment StoreEntitySet="vwACSNtdsVersion">
+                <ScalarProperty Name="AcceptsEdits" ColumnName="AcceptsEdits" />
+                <ScalarProperty Name="Revision" ColumnName="Revision" />
+                <ScalarProperty Name="Year" ColumnName="Year" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vwACSNtdsSuggestion">
+            <EntityTypeMapping TypeName="APTIFYModel.vwACSNtdsSuggestion">
+              <MappingFragment StoreEntitySet="vwACSNtdsSuggestion">
+                <ScalarProperty Name="NtdsFieldTypeId_Name" ColumnName="NtdsFieldTypeId_Name" />
+                <ScalarProperty Name="NtdsFieldTypeId" ColumnName="NtdsFieldTypeId" />
+                <ScalarProperty Name="StaffComments" ColumnName="StaffComments" />
+                <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+                <ScalarProperty Name="FieldName" ColumnName="FieldName" />
+                <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+                <ScalarProperty Name="VersionName" ColumnName="VersionName" />
+                <ScalarProperty Name="ChapterName" ColumnName="ChapterName" />
+                <ScalarProperty Name="NtdsVersionId" ColumnName="NtdsVersionId" />
+                <ScalarProperty Name="NtdsChapterId" ColumnName="NtdsChapterId" />
+                <ScalarProperty Name="FieldId" ColumnName="FieldId" />
+                <ScalarProperty Name="InternalStatusTypeId_Name" ColumnName="InternalStatusTypeId_Name" />
+                <ScalarProperty Name="InternalStatusTypeId" ColumnName="InternalStatusTypeId" />
+                <ScalarProperty Name="ExternalStatusTypeId_Name" ColumnName="ExternalStatusTypeId_Name" />
+                <ScalarProperty Name="ExternalStatusTypeId" ColumnName="ExternalStatusTypeId" />
+                <ScalarProperty Name="PersonId_AcsMailName" ColumnName="PersonId_AcsMailName" />
+                <ScalarProperty Name="PersonId" ColumnName="PersonId" />
+                <ScalarProperty Name="RejectedReason" ColumnName="RejectedReason" />
+                <ScalarProperty Name="ToBePublishedVersion" ColumnName="ToBePublishedVersion" />
+                <ScalarProperty Name="StatusDate" ColumnName="StatusDate" />
+                <ScalarProperty Name="RationaleForChange" ColumnName="RationaleForChange" />
+                <ScalarProperty Name="AssociatedEditChecks" ColumnName="AssociatedEditChecks" />
+                <ScalarProperty Name="DataSourceHierarchy" ColumnName="DataSourceHierarchy" />
+                <ScalarProperty Name="AdditionalInformation" ColumnName="AdditionalInformation" />
+                <ScalarProperty Name="FieldValues" ColumnName="FieldValues" />
+                <ScalarProperty Name="Definition" ColumnName="Definition" />
+                <ScalarProperty Name="NewFieldName" ColumnName="NewFieldName" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vwACSNtdsPersonSuggestions">
+            <EntityTypeMapping TypeName="APTIFYModel.vwACSNtdsPersonSuggestions">
+              <MappingFragment StoreEntitySet="vwACSNtdsPersonSuggestions">
+                <ScalarProperty Name="IsAppendix" ColumnName="IsAppendix" />
+                <ScalarProperty Name="NtdsFieldTypeId_Name" ColumnName="NtdsFieldTypeId_Name" />
+                <ScalarProperty Name="NtdsFieldTypeId" ColumnName="NtdsFieldTypeId" />
+                <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+                <ScalarProperty Name="NtdsVersionId" ColumnName="NtdsVersionId" />
+                <ScalarProperty Name="NtdsChapterId" ColumnName="NtdsChapterId" />
+                <ScalarProperty Name="FieldId" ColumnName="FieldId" />
+                <ScalarProperty Name="FieldName" ColumnName="FieldName" />
+                <ScalarProperty Name="InternalStatusTypeId_Name" ColumnName="InternalStatusTypeId_Name" />
+                <ScalarProperty Name="InternalStatusTypeId" ColumnName="InternalStatusTypeId" />
+                <ScalarProperty Name="ExternalStatusTypeId_Name" ColumnName="ExternalStatusTypeId_Name" />
+                <ScalarProperty Name="ExternalStatusTypeId" ColumnName="ExternalStatusTypeId" />
+                <ScalarProperty Name="VersionName" ColumnName="VersionName" />
+                <ScalarProperty Name="ChapterName" ColumnName="ChapterName" />
+                <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+                <ScalarProperty Name="RationaleForChange" ColumnName="RationaleForChange" />
+                <ScalarProperty Name="AssociatedEditChecks" ColumnName="AssociatedEditChecks" />
+                <ScalarProperty Name="DataSourceHierarchy" ColumnName="DataSourceHierarchy" />
+                <ScalarProperty Name="AdditionalInformation" ColumnName="AdditionalInformation" />
+                <ScalarProperty Name="FieldValues" ColumnName="FieldValues" />
+                <ScalarProperty Name="Definition" ColumnName="Definition" />
+                <ScalarProperty Name="NewFieldName" ColumnName="NewFieldName" />
+                <ScalarProperty Name="PersonId_AcsMailName" ColumnName="PersonId_AcsMailName" />
+                <ScalarProperty Name="PersonId" ColumnName="PersonId" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vwACSNtdsFieldType">
+            <EntityTypeMapping TypeName="APTIFYModel.vwACSNtdsFieldType">
+              <MappingFragment StoreEntitySet="vwACSNtdsFieldType">
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vwACSNtdsField">
+            <EntityTypeMapping TypeName="APTIFYModel.vwACSNtdsField">
+              <MappingFragment StoreEntitySet="vwACSNtdsField">
+                <ScalarProperty Name="NtdsFieldTypeId_Name" ColumnName="NtdsFieldTypeId_Name" />
+                <ScalarProperty Name="NtdsFieldTypeId" ColumnName="NtdsFieldTypeId" />
+                <ScalarProperty Name="NtdsChapterId_VersionId" ColumnName="NtdsChapterId_VersionId" />
+                <ScalarProperty Name="NtdsChapterId_Name" ColumnName="NtdsChapterId_Name" />
+                <ScalarProperty Name="NtdsChapterId" ColumnName="NtdsChapterId" />
+                <ScalarProperty Name="NtdsFieldSequence" ColumnName="NtdsFieldSequence" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="False" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

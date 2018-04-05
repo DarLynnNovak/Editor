@@ -1,0 +1,85 @@
+﻿@using System.Collections.Concurrent
+@using App.Models.Home
+@using App.Resources
+@model App.ViewModels.Home.UserInfoEditViewModel
+@{
+    const string lRequiredNTDBIdMsg = "  (Required if user type is NTDB or TQIP)";
+    const string lRequiredInstitutionMsg = "(Required if user type is Researcher or Other)";
+}
+
+@Html.Partial(MVC.Shared.Views._PageHeading)
+<div  class="container-fluid ">
+
+    @using (Html.BeginForm(MVC.Home.ActionNames.UserInfoSave, MVC.Home.Name, FormMethod.Post, new { name = "newuser", id = "newuser" }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(m => m.UserInfoData.ID)
+        @Html.HiddenFor(m => m.UserInfoData.PersonId)
+
+
+    <table class="tablewidth">
+        <tr>
+            <th colspan="2">
+                &nbsp;
+            </th>
+        </tr>
+        <tr>
+            <td colspan="2" class="text-center">
+                @(Html.Raw(Model.InstructionsText))
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">
+                &nbsp;
+            </th>
+        </tr>
+        <tr>
+            <td class="text-right">
+                @Html.LabelFor(m => m.UserInfoData.UserType, " What type of user are you? ", true)<text>&nbsp;</text>
+            </td>
+            <td>
+                @Html.DropDownListFor(m => m.UserInfoData.UserType, Model.UserTypeChoices, "-- Select User Type --")
+                @Html.ValidationMessageFor(m => m.UserInfoData.UserType)
+            </td>
+        </tr>
+        <tr>
+            <td class="text-right">
+                @Html.LabelFor(m => m.UserInfoData.NTDBId, "NTDB Facility ID ")<text>&nbsp;</text>
+            </td>
+            <td>
+                @Html.TextBoxFor(m => m.UserInfoData.NTDBId, new { @class = "numbersOnly" })@lRequiredNTDBIdMsg
+                @Html.ValidationMessageFor(m => m.UserInfoData.NTDBId)
+            </td>
+        </tr>
+        <tr>
+            <td class="text-right">
+                @Html.LabelFor(m => m.UserInfoData.NTDBId, "Institution Affiliation ")<text>&nbsp;</text>
+            </td>
+            <td>
+                <span id="institutioncount"></span>&nbsp;characters remaining<br />
+                @Html.TextAreaFor(m => m.UserInfoData.InstitutionName, new { @class = "noblecount", data_spanname = "institutioncount", cols = 100, rows = 4 })
+
+                @Html.ValidationMessageFor(m => m.UserInfoData.InstitutionName)
+                <br />@lRequiredInstitutionMsg
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">
+                &nbsp;
+            </th>
+        </tr>
+        <tr>
+            <td colspan="2" class="text-center">
+                <input type="submit" value="Save and Continue" class="btn acs-btn-primary" /> <text>&nbsp;&nbsp;&nbsp;</text>
+                @Html.ActionLink(Buttons.CancelSuggestion, MVC.Account.SendToNtdsPage(), new { @class = "btn acs-btn-default" })
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript">
+            userInfoEditInitialize();
+    </script>
+    }
+
+</div>
+
