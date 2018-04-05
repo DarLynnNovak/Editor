@@ -16,7 +16,7 @@ namespace App.ViewModels.PersonSuggestion
 
         public void Save()
         {
-            var dataSave = new DataSaveClass();
+            var dataSave = new DataSaveClass(null);
             dataSave.DataCollection.Add(new PersonSuggestionModel{ID=ID});
             SaveResults = AptifyEntity.Delete(dataSave);
         }

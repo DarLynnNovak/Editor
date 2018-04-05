@@ -51,7 +51,7 @@ namespace App.ViewModels.Home
         public void Save()
         {
             SaveResults = new List<SaveResults>();
-            var lData = new DataSaveClass();
+            var lData = new DataSaveClass(null);
             UserInfoUpdateModel lModel = _mappingEngine.Map<UserInfoModel, UserInfoUpdateModel>(UserInfoData);
             lData.DataCollection.Add(lModel);
             SaveResults = AptifyEntity.Save(lData);

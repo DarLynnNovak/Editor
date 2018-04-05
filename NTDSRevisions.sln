@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTDSRevisions", "NTDSRevisions\NTDSRevisions.csproj", "{467E979C-5F80-447B-B105-3E85045B17F6}"
 EndProject
@@ -16,27 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BA136F
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcsAptify", "..\..\..\..\AcsAptify\Source\Production\AcsAptify\AcsAptify\AcsAptify.csproj", "{D0291033-C190-43B5-9B5B-3DD269B327E5}"
-EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 5
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://aptify64:8080/tfs/projects
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Data\\Data.csproj
-		SccProjectName1 = Data
-		SccLocalPath1 = Data
-		SccProjectUniqueName2 = DataRepository\\DataRepository.csproj
-		SccProjectName2 = DataRepository
-		SccLocalPath2 = DataRepository
-		SccProjectUniqueName3 = NTDSRevisions\\NTDSRevisions.csproj
-		SccProjectName3 = NTDSRevisions
-		SccLocalPath3 = NTDSRevisions
-		SccProjectUniqueName4 = ..\\..\\..\\..\\AcsAptify\\Source\\Production\\AcsAptify\\AcsAptify\\AcsAptify.csproj
-		SccProjectName4 = ../../../../AcsAptify/Source/Production/AcsAptify/AcsAptify
-		SccLocalPath4 = ..\\..\\..\\..\\AcsAptify\\Source\\Production\\AcsAptify\\AcsAptify
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -61,14 +41,11 @@ Global
 		{7DF5A269-81AF-416F-BB6A-E3C72537F9C7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7DF5A269-81AF-416F-BB6A-E3C72537F9C7}.Staging|Any CPU.ActiveCfg = Release|Any CPU
 		{7DF5A269-81AF-416F-BB6A-E3C72537F9C7}.Staging|Any CPU.Build.0 = Release|Any CPU
-		{D0291033-C190-43B5-9B5B-3DD269B327E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D0291033-C190-43B5-9B5B-3DD269B327E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D0291033-C190-43B5-9B5B-3DD269B327E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D0291033-C190-43B5-9B5B-3DD269B327E5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D0291033-C190-43B5-9B5B-3DD269B327E5}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
-		{D0291033-C190-43B5-9B5B-3DD269B327E5}.Staging|Any CPU.Build.0 = Staging|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {938149B3-9527-4910-9C4E-7A4131F6C168}
 	EndGlobalSection
 EndGlobal

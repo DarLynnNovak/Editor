@@ -51,6 +51,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AcsAptify, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AcsAptify.2017.8.31.3\lib\net45\AcsAptify.dll</HintPath>
+    </Reference>
     <Reference Include="AcsCore, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\AcsCore.2.1.20141028.1\lib\AcsCore.dll</HintPath>
       <Private>True</Private>
@@ -85,6 +88,7 @@
     <Reference Include="AptifyGenericDataServices">
       <HintPath>..\..\..\..\..\..\Program Files\Aptify 5.0 - Staging\AptifyGenericDataServices.dll</HintPath>
     </Reference>
+    <Reference Include="AptifyGenericEntityBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=f3fa0ecabf9514d9, processorArchitecture=MSIL" />
     <Reference Include="AptifyLicensingManager">
       <HintPath>..\..\..\..\..\..\Program Files\Aptify 5.0\AptifyLicensingManager.dll</HintPath>
     </Reference>
@@ -191,14 +195,19 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.4\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Http, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.4\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Routing" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
@@ -388,6 +397,15 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="lib\AptifyApplication.dll" />
+    <Content Include="lib\AptifyExceptionManagement.dll" />
+    <Content Include="lib\AptifyGenericEntity.dll" />
+    <Content Include="lib\AptifyGenericEntityBase.dll" />
+    <Content Include="lib\AptifyLogin.dll" />
+    <Content Include="lib\AptifyObjectRepository.dll" />
+    <Content Include="lib\AptifyProcessFlowEngine.dll" />
+    <Content Include="lib\AptifyUtility.dll" />
+    <Content Include="lib\IAptifyDataServices.dll" />
     <Content Include="Scripts\ai.0.15.0-build58334.js" />
     <Content Include="Scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -477,17 +495,15 @@
     <Folder Include="Views\Utility\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\AcsAptify\Source\Production\AcsAptify\AcsAptify\AcsAptify.csproj">
-      <Project>{d0291033-c190-43b5-9b5b-3dd269b327e5}</Project>
-      <Name>AcsAptify</Name>
-    </ProjectReference>
     <ProjectReference Include="..\DataRepository\DataRepository.csproj">
       <Project>{7df5a269-81af-416f-bb6a-e3c72537f9c7}</Project>
       <Name>DataRepository</Name>

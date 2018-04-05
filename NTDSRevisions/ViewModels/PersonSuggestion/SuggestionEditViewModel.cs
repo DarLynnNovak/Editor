@@ -4,6 +4,7 @@ using System.Web.Mvc;
 using AcsAptify;
 using App.Infrastructure;
 using App.Models.PersonSuggestion;
+using Aptify.Framework.BusinessLogic;
 using AutoMapper;
 using Data;
 using DataRepository;
@@ -66,7 +67,7 @@ namespace App.ViewModels.PersonSuggestion
         public void Save()
         {
             SaveResults = new List<SaveResults>();
-            DataSaveClass dataSave = new DataSaveClass();
+            DataSaveClass dataSave = new DataSaveClass(null);
             PersonSuggestionUpdateModel personSuggestionModel =
                 _mappingEngine.Map<PersonSuggestionModel, PersonSuggestionUpdateModel>(PersonSuggestionModels);
             dataSave.DataCollection.Add(personSuggestionModel);
