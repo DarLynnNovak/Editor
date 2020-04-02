@@ -134,6 +134,7 @@ function suggestionNewInitialize() {
             if (chapterId > 0) {
                 var chaptername = $("#PersonSuggestionModels_NtdsChapterId option:selected").text().toLowerCase();
                 var fieldDropDown = $("#PersonSuggestionModels_FieldId");
+                var chapterIsAppendix = $("#PersonSuggestionModels_IsAppendix").val();
                 loadFields(chapterId, fieldDropDown);
             }
             // check regular expression to see if chaptername contains the word appendix in it lowercase
@@ -141,7 +142,8 @@ function suggestionNewInitialize() {
             $(".datafields").show();
             $(".newfield_name").hide();
             $(".thisrequired").hide();
-            if (chaptername.match(/appendix.*/)) {
+            //if (chaptername.match(/appendix.*/)) {
+            if (chapterIsAppendix == 1) {
                 $(".notappendix").hide();
                 $(".newappendixname").hide();
                 $("label[for=PersonSuggestionModels_Definition]").text(" Suggestion: ");
