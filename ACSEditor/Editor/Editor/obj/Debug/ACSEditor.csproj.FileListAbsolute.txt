@@ -1,0 +1,496 @@
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.csprojAssemblyReference.cache
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.ApplicationSettings.resources
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\xDialog.MsgBox.resources
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.Hlpr.resources
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.SearchDialog.resources
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.SetColumnWidth.resources
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.ShortcutInput.resources
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.TablePropertyForm.resources
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.TextInsertForm.resources
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.ConfigureSMTPForm.resources
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.Editor.resources
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.LinkDialog.resources
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.Properties.Resources.resources
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.csproj.GenerateResource.cache
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.csproj.CoreCompileInputs.cache
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ACSEditor.pdb
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\RulerControl.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\RulerControl.pdb
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.csproj.CopyComplete
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.pdb
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyApplication.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyAttributeManagement.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyExceptionManagement.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyFormTemplateControls.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyGenericDataServices.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyGenericEntityBase.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyUtility.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyWindowsControls.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\IAptifyDataServices.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\C1.Win.C1FlexGrid.2.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyLicensingManager.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinTabControl.v8.1.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinGrid.v8.1.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinDataSource.v8.1.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Metadata.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyObjectRepository.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.v8.1.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyLogin.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\TypeResolution.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyGenericFindBase.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\IAptifyFormTemplateHost.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyStandardScanners.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyScannerBase.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Shared.v8.1.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyExceptionManagementInterfaces.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Greatis.FormDesigner.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyFormTemplateMetadata.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyInputMapControl.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyFormTemplateGUI.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyFormTemplateTabWizard.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifySQLDataServices.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.Misc.v8.1.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinEditors.v8.1.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyAlerts.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinToolbars.v8.1.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyCommandMetaData.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyAddressInterface.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinMaskedEdit.v8.1.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\C1.Win.C1SpellChecker.2.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinStatusBar.v8.1.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinTree.v8.1.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ActiproSoftware.SyntaxEditor.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyGenericWizardGUI.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyReportWizardInterfaces.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyMessagingInterfaces.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\IAptifyRecordTemplate.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyRecordTemplate.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Aptify.Framework.Scripts.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyGACUtility.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyConnectionState.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Unity.Abstractions.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Greatis.FormDesigner.Interop.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\IAptifyWebBoundControls.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\FilterRules.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\EntityListView.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\FilterRulesUI.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\IAptifyDashboard.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyWizardControl.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyProcessFlowEngine.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ActiproSoftware.Shared.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ActiproSoftware.WinUICore.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyWizardSteps.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyWizardProcessorObject.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyEventFire.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyFormTemplateHost.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinListView.v8.1.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyGenericEntity.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyViewPlugIn.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyExcelWizard.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyMerge.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyScriptEngine.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ProcessFlowDebugHarness.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifySecurityKey.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\CacheClient.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyGenericFind.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyViewsEntity.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyServiceDataObjectUtility.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyExcelIntegration.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ProximitySearch.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\NPOI.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\NPOI.OOXML.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\C1.Win.C1FlexGrid.2.xml
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinTabControl.v8.1.xml
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinGrid.v8.1.xml
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinDataSource.v8.1.xml
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.v8.1.xml
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Shared.v8.1.xml
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.Misc.v8.1.xml
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinEditors.v8.1.xml
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinToolbars.v8.1.xml
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinMaskedEdit.v8.1.xml
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\C1.Win.C1SpellChecker.2.xml
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinStatusBar.v8.1.xml
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinTree.v8.1.xml
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinListView.v8.1.xml
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\NetSpell.SpellChecker.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ACSEditor.dll.config
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ACSEditor.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.dll
+C:\Users\Dar\Downloads\WindowsEditor-master\WindowsEditor-master\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.frmPickField.resources
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ACSEditor.dll.config
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ACSEditor.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ACSEditor.pdb
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyApplication.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyAttributeManagement.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyExceptionManagement.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyFormTemplateControls.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyGenericDataServices.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyGenericEntityBase.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyUtility.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyWindowsControls.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\IAptifyDataServices.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\NetSpell.SpellChecker.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\C1.Win.C1FlexGrid.2.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyLicensingManager.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinTabControl.v8.1.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinGrid.v8.1.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinDataSource.v8.1.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Metadata.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyObjectRepository.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.v8.1.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyLogin.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\TypeResolution.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyGenericFindBase.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\IAptifyFormTemplateHost.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyStandardScanners.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyScannerBase.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Shared.v8.1.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyExceptionManagementInterfaces.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Greatis.FormDesigner.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyFormTemplateMetadata.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyInputMapControl.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyFormTemplateGUI.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyFormTemplateTabWizard.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifySQLDataServices.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.Misc.v8.1.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinEditors.v8.1.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyAlerts.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinToolbars.v8.1.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyCommandMetaData.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyAddressInterface.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinMaskedEdit.v8.1.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\C1.Win.C1SpellChecker.2.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinStatusBar.v8.1.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinTree.v8.1.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ActiproSoftware.SyntaxEditor.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyGenericWizardGUI.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyReportWizardInterfaces.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyMessagingInterfaces.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\IAptifyRecordTemplate.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyRecordTemplate.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Aptify.Framework.Scripts.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyGACUtility.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyConnectionState.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Unity.Abstractions.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Greatis.FormDesigner.Interop.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\IAptifyWebBoundControls.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\FilterRules.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\EntityListView.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\FilterRulesUI.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\IAptifyDashboard.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyWizardControl.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyProcessFlowEngine.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ActiproSoftware.Shared.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ActiproSoftware.WinUICore.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyWizardSteps.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyWizardProcessorObject.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyEventFire.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyFormTemplateHost.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinListView.v8.1.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyGenericEntity.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyViewPlugIn.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyExcelWizard.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyMerge.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Newtonsoft.Json.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyScriptEngine.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ProcessFlowDebugHarness.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifySecurityKey.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\CacheClient.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyGenericFind.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyViewsEntity.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyServiceDataObjectUtility.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyExcelIntegration.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ProximitySearch.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\NPOI.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\NPOI.OOXML.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\C1.Win.C1FlexGrid.2.xml
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinTabControl.v8.1.xml
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinGrid.v8.1.xml
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinDataSource.v8.1.xml
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.v8.1.xml
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Shared.v8.1.xml
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.Misc.v8.1.xml
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinEditors.v8.1.xml
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinToolbars.v8.1.xml
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinMaskedEdit.v8.1.xml
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\C1.Win.C1SpellChecker.2.xml
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinStatusBar.v8.1.xml
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinTree.v8.1.xml
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinListView.v8.1.xml
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.csprojAssemblyReference.cache
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.ApplicationSettings.resources
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.Editor.resources
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.frmPickField.resources
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\xDialog.MsgBox.resources
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.Hlpr.resources
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.SearchDialog.resources
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.SetColumnWidth.resources
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.ShortcutInput.resources
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.TablePropertyForm.resources
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.TextInsertForm.resources
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.ConfigureSMTPForm.resources
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.LinkDialog.resources
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.Properties.Resources.resources
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.csproj.GenerateResource.cache
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.csproj.CoreCompileInputs.cache
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.csproj.CopyComplete
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.pdb
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\IronPdf.dll
+C:\Code\ACSEditor\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\IronPdf.Assets.Rendering.Windows.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ACSEditor.dll.config
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ACSEditor.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ACSEditor.pdb
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyApplication.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyAttributeManagement.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyExceptionManagement.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyFormTemplateControls.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyGenericDataServices.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyGenericEntityBase.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyUtility.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyWindowsControls.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\IAptifyDataServices.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\IronPdf.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\NetSpell.SpellChecker.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\C1.Win.C1FlexGrid.2.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyLicensingManager.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinTabControl.v8.1.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinGrid.v8.1.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinDataSource.v8.1.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Metadata.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyObjectRepository.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.v8.1.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyLogin.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\TypeResolution.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyGenericFindBase.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\IAptifyFormTemplateHost.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyStandardScanners.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyScannerBase.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Shared.v8.1.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyExceptionManagementInterfaces.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Greatis.FormDesigner.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyFormTemplateMetadata.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyInputMapControl.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyFormTemplateGUI.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyFormTemplateTabWizard.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifySQLDataServices.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.Misc.v8.1.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinEditors.v8.1.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyAlerts.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinToolbars.v8.1.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyCommandMetaData.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyAddressInterface.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinMaskedEdit.v8.1.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\C1.Win.C1SpellChecker.2.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinStatusBar.v8.1.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinTree.v8.1.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ActiproSoftware.SyntaxEditor.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyGenericWizardGUI.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyReportWizardInterfaces.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyMessagingInterfaces.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\IAptifyRecordTemplate.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyRecordTemplate.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Aptify.Framework.Scripts.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\IronPdf.Assets.Rendering.Windows.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyGACUtility.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyConnectionState.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Unity.Abstractions.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Greatis.FormDesigner.Interop.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\IAptifyWebBoundControls.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\FilterRules.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\EntityListView.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\FilterRulesUI.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\IAptifyDashboard.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyWizardControl.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyProcessFlowEngine.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ActiproSoftware.Shared.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ActiproSoftware.WinUICore.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyWizardSteps.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyWizardProcessorObject.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyEventFire.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyFormTemplateHost.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinListView.v8.1.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyGenericEntity.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyViewPlugIn.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyExcelWizard.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyMerge.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Newtonsoft.Json.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyScriptEngine.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ProcessFlowDebugHarness.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifySecurityKey.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\CacheClient.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyGenericFind.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyViewsEntity.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyServiceDataObjectUtility.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\AptifyExcelIntegration.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ProximitySearch.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\NPOI.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\NPOI.OOXML.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\C1.Win.C1FlexGrid.2.xml
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinTabControl.v8.1.xml
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinGrid.v8.1.xml
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinDataSource.v8.1.xml
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.v8.1.xml
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Shared.v8.1.xml
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.Misc.v8.1.xml
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinEditors.v8.1.xml
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinToolbars.v8.1.xml
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinMaskedEdit.v8.1.xml
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\C1.Win.C1SpellChecker.2.xml
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinStatusBar.v8.1.xml
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinTree.v8.1.xml
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\bin\Debug\Infragistics2.Win.UltraWinListView.v8.1.xml
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.csprojAssemblyReference.cache
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.ApplicationSettings.resources
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.Editor.resources
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.frmPickField.resources
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\xDialog.MsgBox.resources
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.Hlpr.resources
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.SearchDialog.resources
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.SetColumnWidth.resources
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.ShortcutInput.resources
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.TablePropertyForm.resources
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.TextInsertForm.resources
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.ConfigureSMTPForm.resources
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.LinkDialog.resources
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.Properties.Resources.resources
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.csproj.GenerateResource.cache
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.csproj.CoreCompileInputs.cache
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.csproj.CopyComplete
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.dll
+C:\Code\ACSEditor - Copy\Eq2ImgWinForms\Eq2ImgWinForms\obj\Debug\ACSEditor.pdb
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\ACSEditor.dll.config
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\ACSEditor.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\ACSEditor.pdb
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyApplication.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyAttributeManagement.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyExceptionManagement.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyFormTemplateControls.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyGenericDataServices.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyGenericEntityBase.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyUtility.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyWindowsControls.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\IAptifyDataServices.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\IronPdf.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\NetSpell.SpellChecker.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\C1.Win.C1FlexGrid.2.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyLicensingManager.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Win.UltraWinTabControl.v8.1.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Win.UltraWinGrid.v8.1.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Win.UltraWinDataSource.v8.1.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Metadata.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyObjectRepository.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Win.v8.1.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyLogin.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\TypeResolution.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyGenericFindBase.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\IAptifyFormTemplateHost.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyStandardScanners.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyScannerBase.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Shared.v8.1.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyExceptionManagementInterfaces.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Greatis.FormDesigner.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyFormTemplateMetadata.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyInputMapControl.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyFormTemplateGUI.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyFormTemplateTabWizard.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifySQLDataServices.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Win.Misc.v8.1.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Win.UltraWinEditors.v8.1.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyAlerts.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Win.UltraWinToolbars.v8.1.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyCommandMetaData.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyAddressInterface.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Win.UltraWinMaskedEdit.v8.1.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\C1.Win.C1SpellChecker.2.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Win.UltraWinStatusBar.v8.1.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Win.UltraWinTree.v8.1.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\ActiproSoftware.SyntaxEditor.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyGenericWizardGUI.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyReportWizardInterfaces.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyMessagingInterfaces.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\IAptifyRecordTemplate.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyRecordTemplate.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Aptify.Framework.Scripts.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\IronPdf.Assets.Rendering.Windows.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyGACUtility.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyConnectionState.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Unity.Abstractions.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Greatis.FormDesigner.Interop.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\IAptifyWebBoundControls.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\FilterRules.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\EntityListView.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\FilterRulesUI.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\IAptifyDashboard.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyWizardControl.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyProcessFlowEngine.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\ActiproSoftware.Shared.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\ActiproSoftware.WinUICore.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyWizardSteps.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyWizardProcessorObject.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyEventFire.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyFormTemplateHost.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Win.UltraWinListView.v8.1.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyGenericEntity.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyViewPlugIn.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyExcelWizard.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyMerge.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Newtonsoft.Json.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyScriptEngine.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\ProcessFlowDebugHarness.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifySecurityKey.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\CacheClient.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyGenericFind.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyViewsEntity.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyServiceDataObjectUtility.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\AptifyExcelIntegration.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\ProximitySearch.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\NPOI.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\NPOI.OOXML.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\C1.Win.C1FlexGrid.2.xml
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Win.UltraWinTabControl.v8.1.xml
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Win.UltraWinGrid.v8.1.xml
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Win.UltraWinDataSource.v8.1.xml
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Win.v8.1.xml
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Shared.v8.1.xml
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Win.Misc.v8.1.xml
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Win.UltraWinEditors.v8.1.xml
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Win.UltraWinToolbars.v8.1.xml
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Win.UltraWinMaskedEdit.v8.1.xml
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\C1.Win.C1SpellChecker.2.xml
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Win.UltraWinStatusBar.v8.1.xml
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Win.UltraWinTree.v8.1.xml
+C:\Code\ACSEditor - Copy\Editor\Editor\bin\Debug\Infragistics2.Win.UltraWinListView.v8.1.xml
+C:\Code\ACSEditor - Copy\Editor\Editor\obj\Debug\ACSEditor.csprojAssemblyReference.cache
+C:\Code\ACSEditor - Copy\Editor\Editor\obj\Debug\ACSEditor.ApplicationSettings.resources
+C:\Code\ACSEditor - Copy\Editor\Editor\obj\Debug\ACSEditor.Editor.resources
+C:\Code\ACSEditor - Copy\Editor\Editor\obj\Debug\ACSEditor.frmPickField.resources
+C:\Code\ACSEditor - Copy\Editor\Editor\obj\Debug\xDialog.MsgBox.resources
+C:\Code\ACSEditor - Copy\Editor\Editor\obj\Debug\ACSEditor.Hlpr.resources
+C:\Code\ACSEditor - Copy\Editor\Editor\obj\Debug\ACSEditor.SearchDialog.resources
+C:\Code\ACSEditor - Copy\Editor\Editor\obj\Debug\ACSEditor.SetColumnWidth.resources
+C:\Code\ACSEditor - Copy\Editor\Editor\obj\Debug\ACSEditor.ShortcutInput.resources
+C:\Code\ACSEditor - Copy\Editor\Editor\obj\Debug\ACSEditor.TablePropertyForm.resources
+C:\Code\ACSEditor - Copy\Editor\Editor\obj\Debug\ACSEditor.TextInsertForm.resources
+C:\Code\ACSEditor - Copy\Editor\Editor\obj\Debug\ACSEditor.ConfigureSMTPForm.resources
+C:\Code\ACSEditor - Copy\Editor\Editor\obj\Debug\ACSEditor.LinkDialog.resources
+C:\Code\ACSEditor - Copy\Editor\Editor\obj\Debug\ACSEditor.Properties.Resources.resources
+C:\Code\ACSEditor - Copy\Editor\Editor\obj\Debug\ACSEditor.csproj.GenerateResource.cache
+C:\Code\ACSEditor - Copy\Editor\Editor\obj\Debug\ACSEditor.csproj.CoreCompileInputs.cache
+C:\Code\ACSEditor - Copy\Editor\Editor\obj\Debug\ACSEditor.csproj.CopyComplete
+C:\Code\ACSEditor - Copy\Editor\Editor\obj\Debug\ACSEditor.dll
+C:\Code\ACSEditor - Copy\Editor\Editor\obj\Debug\ACSEditor.pdb
