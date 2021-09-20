@@ -9,7 +9,7 @@ namespace ACSEditor
 	class HTMLComponent : FormComponent
     {
         Editor editor = new Editor();
-        string fieldHtml;
+        string fieldHtml; 
         string fieldName;
         string starthtml; 
         string entitySql;
