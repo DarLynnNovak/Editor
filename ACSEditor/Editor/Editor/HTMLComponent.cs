@@ -11,7 +11,7 @@ namespace ACSEditor
         Editor editor = new Editor();
         string fieldHtml;    
         string fieldName;
-        string starthtml; 
+        string starthtml;  
         string entitySql;
         int m_lEntityID;
         private AptifyApplication m_oApp = new AptifyApplication();
