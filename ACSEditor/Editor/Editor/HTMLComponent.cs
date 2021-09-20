@@ -9,20 +9,20 @@ namespace ACSEditor
 	class HTMLComponent : FormComponent
     {
         Editor editor = new Editor();
-        string fieldHtml; 
+        string fieldHtml;    
         string fieldName;
         string starthtml; 
         string entitySql;
         int m_lEntityID;
         private AptifyApplication m_oApp = new AptifyApplication();
-        private DataAction m_oDA = new DataAction();
+        private DataAction m_oDA = new DataAction(); 
         private AptifyProperties m_oProps = new AptifyProperties();
         private System.Windows.Forms.Form _parentForm;  
         private AptifyGenericEntityBase oGE; 
         public int EId;
         int RecordId;
         int editorWidth;
-        int editorHeight;
+        int editorHeight;  
         string isSave;
         public string fldsql;
         public virtual AptifyApplication Application
